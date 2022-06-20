@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functional suite" verbose="1">
+    <test name="Results count test">
+        <classes>
+            <class name="cases.parttwo.FunctionalTestCase">
+                <methods>
+                    <include name="resultsReturned_Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Movie end displayed test">
+        <classes>
+            <class name="cases.parttwo.FunctionalTestCase">
+                <methods>
+                    <include name="resultsReturned_Test"/>
+                    <include name="movie_Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Closed Caption test">
+        <classes>
+            <class name="cases.parttwo.FunctionalTestCase">
+                <methods>
+                    <include name="resultsReturned_Test"/>
+                    <include name="closedCaptions_Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Feature Topic test">
+        <classes>
+            <class name="cases.parttwo.FunctionalTestCase">
+                <methods>
+                    <include name="resultsReturned_Test"/>
+                    <include name="featureRelatedReading_Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

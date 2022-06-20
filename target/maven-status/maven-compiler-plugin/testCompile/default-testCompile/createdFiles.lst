@@ -1,0 +1,5 @@
+base\Initialization.class
+cases\partone\ResetPasswordTestCase.class
+cases\partone\SuccessfulLoginTestCase.class
+cases\parttwo\FunctionalTestCase.class
+cases\partone\UnsuccessfulLoginTestCase.class

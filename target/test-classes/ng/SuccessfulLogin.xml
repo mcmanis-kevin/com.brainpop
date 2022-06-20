@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Successful login suite" verbose="1">
+    <test name="Successful login test">
+        <classes>
+            <class name="cases.partone.SuccessfulLoginTestCase"/>
+        </classes>
+    </test>
+</suite>

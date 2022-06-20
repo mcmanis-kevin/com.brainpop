@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BrainPOP-Suite" verbose="1">
+    <suite-files>
+        <suite-file path="src/test/resources/ng/SuccessfulLogin.xml"/>
+        <!--        <suite-file path="src/test/resources/ng/UnsuccessfulLogin.xml"/>-->
+        <!--        <suite-file path="src/test/resources/ng/ForgotPassword.xml"/>-->
+        <suite-file path="src/test/resources/ng/Functional.xml"/>
+    </suite-files>
+</suite>

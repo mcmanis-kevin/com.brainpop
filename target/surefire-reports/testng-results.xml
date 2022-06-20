@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="17" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-19T23:28:42 CDT" name="BrainPOP-Suite" finished-at="2022-06-19T23:28:42 CDT" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- BrainPOP-Suite -->
+  <suite started-at="2022-06-19T23:27:35 CDT" name="Successful login suite" finished-at="2022-06-19T23:27:45 CDT" duration-ms="9810">
+    <groups>
+    </groups>
+    <test started-at="2022-06-19T23:27:35 CDT" name="Successful login test" finished-at="2022-06-19T23:27:45 CDT" duration-ms="9810">
+      <class name="cases.partone.SuccessfulLoginTestCase">
+        <test-method is-config="true" signature="initializationOfDriver()[pri:0, instance:cases.partone.SuccessfulLoginTestCase@5f058f00]" started-at="2022-06-19T23:27:36 CDT" name="initializationOfDriver" finished-at="2022-06-19T23:27:38 CDT" duration-ms="2253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfDriver -->
+        <test-method signature="successfulLoginAttempt_Test()[pri:0, instance:cases.partone.SuccessfulLoginTestCase@5f058f00]" started-at="2022-06-19T23:27:38 CDT" name="successfulLoginAttempt_Test" finished-at="2022-06-19T23:27:41 CDT" duration-ms="3333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginAttempt_Test -->
+        <test-method is-config="true" signature="logOutUserFromApp()[pri:0, instance:cases.partone.SuccessfulLoginTestCase@5f058f00]" started-at="2022-06-19T23:27:41 CDT" name="logOutUserFromApp" finished-at="2022-06-19T23:27:44 CDT" duration-ms="3038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUserFromApp -->
+        <test-method is-config="true" signature="deconstruct()[pri:0, instance:cases.partone.SuccessfulLoginTestCase@5f058f00]" started-at="2022-06-19T23:27:44 CDT" name="deconstruct" finished-at="2022-06-19T23:27:45 CDT" depends-on-methods="base.Initialization.logOutUserFromApp" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deconstruct -->
+      </class> <!-- cases.partone.SuccessfulLoginTestCase -->
+    </test> <!-- Successful login test -->
+  </suite> <!-- Successful login suite -->
+  <suite started-at="2022-06-19T23:27:45 CDT" name="Functional suite" finished-at="2022-06-19T23:28:42 CDT" duration-ms="56385">
+    <groups>
+    </groups>
+    <test started-at="2022-06-19T23:27:45 CDT" name="Results count test" finished-at="2022-06-19T23:27:57 CDT" duration-ms="11202">
+      <class name="cases.parttwo.FunctionalTestCase">
+        <test-method is-config="true" signature="initializationOfDriver()[pri:0, instance:cases.parttwo.FunctionalTestCase@9f116cc]" started-at="2022-06-19T23:27:45 CDT" name="initializationOfDriver" finished-at="2022-06-19T23:27:46 CDT" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfDriver -->
+        <test-method signature="resultsReturned_Test()[pri:0, instance:cases.parttwo.FunctionalTestCase@9f116cc]" started-at="2022-06-19T23:27:46 CDT" name="resultsReturned_Test" finished-at="2022-06-19T23:27:55 CDT" duration-ms="8235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultsReturned_Test -->
+        <test-method is-config="true" signature="logOutUserFromApp()[pri:0, instance:cases.parttwo.FunctionalTestCase@9f116cc]" started-at="2022-06-19T23:27:55 CDT" name="logOutUserFromApp" finished-at="2022-06-19T23:27:56 CDT" duration-ms="1763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUserFromApp -->
+        <test-method is-config="true" signature="deconstruct()[pri:0, instance:cases.parttwo.FunctionalTestCase@9f116cc]" started-at="2022-06-19T23:27:56 CDT" name="deconstruct" finished-at="2022-06-19T23:27:57 CDT" depends-on-methods="base.Initialization.logOutUserFromApp" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deconstruct -->
+      </class> <!-- cases.parttwo.FunctionalTestCase -->
+    </test> <!-- Results count test -->
+    <test started-at="2022-06-19T23:27:57 CDT" name="Movie end displayed test" finished-at="2022-06-19T23:28:12 CDT" duration-ms="15758">
+      <class name="cases.parttwo.FunctionalTestCase">
+        <test-method is-config="true" signature="initializationOfDriver()[pri:0, instance:cases.parttwo.FunctionalTestCase@2a798d51]" started-at="2022-06-19T23:27:57 CDT" name="initializationOfDriver" finished-at="2022-06-19T23:27:58 CDT" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfDriver -->
+        <test-method signature="resultsReturned_Test()[pri:0, instance:cases.parttwo.FunctionalTestCase@2a798d51]" started-at="2022-06-19T23:27:58 CDT" name="resultsReturned_Test" finished-at="2022-06-19T23:28:06 CDT" duration-ms="8828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultsReturned_Test -->
+        <test-method signature="movie_Test()[pri:0, instance:cases.parttwo.FunctionalTestCase@2a798d51]" started-at="2022-06-19T23:28:06 CDT" name="movie_Test" finished-at="2022-06-19T23:28:12 CDT" depends-on-methods="cases.parttwo.FunctionalTestCase.resultsReturned_Test" duration-ms="5473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movie_Test -->
+        <test-method is-config="true" signature="logOutUserFromApp()[pri:0, instance:cases.parttwo.FunctionalTestCase@2a798d51]" started-at="2022-06-19T23:28:12 CDT" name="logOutUserFromApp" finished-at="2022-06-19T23:28:12 CDT" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUserFromApp -->
+        <test-method is-config="true" signature="deconstruct()[pri:0, instance:cases.parttwo.FunctionalTestCase@2a798d51]" started-at="2022-06-19T23:28:12 CDT" name="deconstruct" finished-at="2022-06-19T23:28:12 CDT" depends-on-methods="base.Initialization.logOutUserFromApp" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deconstruct -->
+      </class> <!-- cases.parttwo.FunctionalTestCase -->
+    </test> <!-- Movie end displayed test -->
+    <test started-at="2022-06-19T23:28:12 CDT" name="Closed Caption test" finished-at="2022-06-19T23:28:27 CDT" duration-ms="14915">
+      <class name="cases.parttwo.FunctionalTestCase">
+        <test-method is-config="true" signature="initializationOfDriver()[pri:0, instance:cases.parttwo.FunctionalTestCase@245b4bdc]" started-at="2022-06-19T23:28:12 CDT" name="initializationOfDriver" finished-at="2022-06-19T23:28:13 CDT" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfDriver -->
+        <test-method signature="resultsReturned_Test()[pri:0, instance:cases.parttwo.FunctionalTestCase@245b4bdc]" started-at="2022-06-19T23:28:13 CDT" name="resultsReturned_Test" finished-at="2022-06-19T23:28:21 CDT" duration-ms="8127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultsReturned_Test -->
+        <test-method signature="closedCaptions_Test()[pri:0, instance:cases.parttwo.FunctionalTestCase@245b4bdc]" started-at="2022-06-19T23:28:21 CDT" name="closedCaptions_Test" finished-at="2022-06-19T23:28:27 CDT" depends-on-methods="cases.parttwo.FunctionalTestCase.resultsReturned_Test" duration-ms="5544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCaptions_Test -->
+        <test-method is-config="true" signature="logOutUserFromApp()[pri:0, instance:cases.parttwo.FunctionalTestCase@245b4bdc]" started-at="2022-06-19T23:28:27 CDT" name="logOutUserFromApp" finished-at="2022-06-19T23:28:27 CDT" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUserFromApp -->
+        <test-method is-config="true" signature="deconstruct()[pri:0, instance:cases.parttwo.FunctionalTestCase@245b4bdc]" started-at="2022-06-19T23:28:27 CDT" name="deconstruct" finished-at="2022-06-19T23:28:27 CDT" depends-on-methods="base.Initialization.logOutUserFromApp" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deconstruct -->
+      </class> <!-- cases.parttwo.FunctionalTestCase -->
+    </test> <!-- Closed Caption test -->
+    <test started-at="2022-06-19T23:28:27 CDT" name="Feature Topic test" finished-at="2022-06-19T23:28:42 CDT" duration-ms="14499">
+      <class name="cases.parttwo.FunctionalTestCase">
+        <test-method is-config="true" signature="initializationOfDriver()[pri:0, instance:cases.parttwo.FunctionalTestCase@5158b42f]" started-at="2022-06-19T23:28:27 CDT" name="initializationOfDriver" finished-at="2022-06-19T23:28:28 CDT" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfDriver -->
+        <test-method signature="resultsReturned_Test()[pri:0, instance:cases.parttwo.FunctionalTestCase@5158b42f]" started-at="2022-06-19T23:28:28 CDT" name="resultsReturned_Test" finished-at="2022-06-19T23:28:37 CDT" duration-ms="8762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultsReturned_Test -->
+        <test-method signature="featureRelatedReading_Test()[pri:0, instance:cases.parttwo.FunctionalTestCase@5158b42f]" started-at="2022-06-19T23:28:37 CDT" name="featureRelatedReading_Test" finished-at="2022-06-19T23:28:40 CDT" depends-on-methods="cases.parttwo.FunctionalTestCase.resultsReturned_Test" duration-ms="3187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- featureRelatedReading_Test -->
+        <test-method is-config="true" signature="logOutUserFromApp()[pri:0, instance:cases.parttwo.FunctionalTestCase@5158b42f]" started-at="2022-06-19T23:28:40 CDT" name="logOutUserFromApp" finished-at="2022-06-19T23:28:41 CDT" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUserFromApp -->
+        <test-method is-config="true" signature="deconstruct()[pri:0, instance:cases.parttwo.FunctionalTestCase@5158b42f]" started-at="2022-06-19T23:28:41 CDT" name="deconstruct" finished-at="2022-06-19T23:28:42 CDT" depends-on-methods="base.Initialization.logOutUserFromApp" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deconstruct -->
+      </class> <!-- cases.parttwo.FunctionalTestCase -->
+    </test> <!-- Feature Topic test -->
+  </suite> <!-- Functional suite -->
+</testng-results>
