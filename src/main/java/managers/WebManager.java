@@ -28,13 +28,10 @@ public class WebManager {
         capabilities.setAcceptInsecureCerts(true);
         capabilities.addArguments("disable-infobars");
         capabilities.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
-//        capabilities.addArguments("--headless");
-//        capabilities.addArguments("--disable-gpu");
         capabilities.addArguments("--ignore-certificate-errors");
         capabilities.addArguments("--allow-running-insecure-content");
         capabilities.addArguments("--disable-extensions");
         capabilities.addArguments("--disable-dev-shm-usage");
-//        capabilities.addArguments("--window-size=2560,1080");
         capabilities.addArguments("--app=" + url);
         return capabilities;
     }
