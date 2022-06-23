@@ -9,6 +9,9 @@ Dependency/Build Management -> Maven 3.8.6
 From command prompt, navigate to the project root location and this will put you on the <i>master</i> branch<br>
 Enter into the command prompt:: mvn verify
 
+All System environments will need to be set up with the correct maven and JDK before hand
+
+
 
 
 
